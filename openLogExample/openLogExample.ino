@@ -5,7 +5,7 @@ OpenLog myLog; //Create instance
 
 
 void setup() {
-  Wire.begin(); //Initialize I2C
+  Wire.begin(); 
   myLog.begin(); //Open connection to OpenLog (no pun intended)
 
   Serial.begin(9600); //9600bps is used for debug statements
